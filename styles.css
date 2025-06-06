@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #ffffff;
+  color: white;
+}
+
+.container {
+  background-color: #ffb6c1;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.bow {
+  width: 200px;
+}
+
+h1 {
+  font-size: 2em;
+  color: white;
+}
+
+.menu {
+  background-color: #f44336;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.menu button {
+  background-color: #f44336;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hello-kitty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.kitty-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.text h2 {
+  color: white;
+}
+
+.text p {
+  text-align: left;
+  color: black;
+}
+
+hr {
+  margin: 30px auto;
+  border: 2px solid red;
+  width: 80%;
+}
+
+.recipes-title {
+  color: white;
+}
+
+.star {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.cont{
+  display: flex;  
+  justify-content: center;                
+}
+
+.food {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  justify-items: center;
+}
+
+.food-img {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.star {
+  width: 40px;
+  margin: 10px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer {
+  margin: 60px auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  background-color: red;
+  width: 400px;
+  min-height: 10px;
+  color: white;
+  text-align: center;
+}
+
