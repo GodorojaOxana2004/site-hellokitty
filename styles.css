@@ -122,3 +122,55 @@ hr {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin: 30px;
+
+  }
+
+  h1, h2, p {
+    text-align: center;
+    font-size: 90%;
+  }
+
+  img {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  nav a, .button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  .footer {
+  width: 300px;
+  min-height: 5px;
+  }
+
+  .food-grid{
+    display: grid;
+    gap: 10px;
+    margin: 20px 20px;
+    justify-items: center;
+  }
+
+  .star-img{
+    display: grid;   
+    grid-template-columns: repeat(3, 1fr);  
+    
+  }
+  
+}
