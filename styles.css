@@ -122,6 +122,11 @@ hr {
   text-align: center;
 }
 
+button:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
